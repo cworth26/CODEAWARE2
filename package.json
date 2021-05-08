@@ -1,12 +1,12 @@
 {
 	"name": "dashboard",
 	"version": "1.0.0",
-	"description": "An e-commerce dashboard",
+	"description": "Coding dashboard",
 	"main": "server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "Peter Sanchez",
+	"authors": "Peter Sanchez, Canita Worth, Tammy Gegoski, Tierra Gore",
 	"license": "ISC",
 	"dependencies": {
 		"argon2": "^0.27.2",
