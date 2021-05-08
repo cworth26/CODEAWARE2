@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="./css/auth.css"
+		/>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="icon-wrapper">
+				<img src="./svg/web-programming.svg" class="shoe-svg" />
+			</div>
+			<h1 class="title">Log in to Codeaware</h1>
+			<div class="error"></div>
+			<form id="login">
+				<div class="input-container">
+					<div class="input-wrapper">
+						<input
+							class="codeaware-input"
+							type="text"
+							required
+							autocomplete="off"
+							id="username"
+							value=""
+							autofocus
+						/>
+						<label class="codeaware-label"
+							><span class="codeaware-span"
+								>Email or username</span
+							></label
+						>
+					</div>
+				</div>
+				<div class="input-container">
+					<div class="input-wrapper">
+						<input
+							class="codeaware-input"
+							type="password"
+							required
+							autocomplete="off"
+							value=""
+							id="password"
+						/>
+						<label class="codeaware-label"
+							><span class="codeaware-span">Password</span></label
+						>
+					</div>
+				</div>
+				<button disabled class="login" type="submit">Log in</button>
+			</form>
+			<div class="flex-wrapper">
+				<a href="/reset" class="auth-link">Forgot password?</a>
+				<span class="dot">·</span>
+				<a href="/signup" class="auth-link">Sign up for Codeaware?</a>
+			</div>
+		</div>
+		<script type="module" src="/js/routes.js"></script>
+		<script type="module" src="/js/login.js"></script>
+	</body>
+</html>
